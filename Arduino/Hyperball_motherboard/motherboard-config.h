@@ -1,0 +1,71 @@
+// LCD Identifiers
+#define LCD_BLUE 0x26
+#define LCD_GREEN 0x25
+#define LCD_PURPLE 0x27
+#define LCD_ORANGE 0x23
+
+#define LCD_COLS 16
+#define LCD_ROWS 2
+
+// Joystick min max from the center
+#define JOYSTICK_X_MIN 10
+#define JOYSTICK_X_CENTER_MIN 370
+#define JOYSTICK_X_CENTER 530
+#define JOYSTICK_X_CENTER_MAX 490
+#define JOYSTICK_X_MAX 1023
+#define MAX_VALUE 512
+#define JOYSTICK_DEAD_ZONE 80
+#define INPUT_READ_INTERVAL 100
+
+// Motor Speed settings
+#define MOTOR_MIN_SPEED 600 //600
+#define MOTOR_MAX_SPEED 1800
+
+// Gamepad button input
+#define BTN_BLUE 50
+#define BTN_GREEN 48
+#define BTN_PURPLE 46
+#define BTN_ORANGE 44
+
+// Gamepad Joystick Analog input
+#define JOY_X_BLUE 15
+#define JOY_X_GREEN 14
+#define JOY_X_PURPLE 13
+#define JOY_X_ORANGE 12
+
+// MOTORS
+#define MOTOR_STEP_BLUE 2
+#define MOTOR_STEP_GREEN 3
+#define MOTOR_STEP_PURPLE 4
+#define MOTOR_STEP_ORANGE 5
+#define MOTOR_DIR_BLUE 6
+#define MOTOR_DIR_GREEN 7
+#define MOTOR_DIR_PURPLE 8
+#define MOTOR_DIR_ORANGE 9
+#define MOTOR_ENA_BLUE 10
+#define MOTOR_ENA_GREEN 11
+#define MOTOR_ENA_PURPLE 12
+#define MOTOR_ENA_ORANGE 13
+
+// SOLENOIDS
+#define SOLENOID_BLUE 23
+#define SOLENOID_GREEN 25
+#define SOLENOID_PURPLE 27
+#define SOLENOID_ORANGE 29
+
+// LIMIT SWITCHES
+#define LIMIT_LEFT_BLUE 35
+#define LIMIT_LEFT_GREEN 41
+#define LIMIT_LEFT_PURPLE 47
+#define LIMIT_LEFT_ORANGE 53
+
+#define LIMIT_RIGHT_BLUE 33
+#define LIMIT_RIGHT_GREEN 39
+#define LIMIT_RIGHT_PURPLE 45
+#define LIMIT_RIGHT_ORANGE 51
+
+// GOAL SWITCHES
+#define GOAL_BLUE 31
+#define GOAL_GREEN 37
+#define GOAL_PURPLE 43
+#define GOAL_ORANGE 49
